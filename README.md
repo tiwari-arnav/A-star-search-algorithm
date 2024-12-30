@@ -7,7 +7,7 @@ The inputs to your program are the start and goal positions of a point robot, an
 ![Sample workspace of the robot with an unoptimal path in red.](assets/images/Sample_workspace.png)
 
 
-## Defining costs of each step to find an optimal path
+## Defining cost of each step to find an optimal path
 
 Let each cell in the workspace be a state. Therefore white cells are legal states(the robot is allowed to move to that cell) and black cells are illegal states(the cell is an obstacle). Each step cost can be calculated by the sum of angle cost(change of angle in movement from the previous step) and distance cost. 
-Distance cost is easy to determine wherein the distance cost for horizontal and vertical moves is 1 and $\sqrt{2} for diagnol moves.
+Distance cost is easy to determine wherein the distance cost for horizontal and vertical moves is 1 and $\sqrt{2}$ for diagnol moves.
